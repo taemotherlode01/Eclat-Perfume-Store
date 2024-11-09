@@ -63,13 +63,7 @@ npx prisma migrate dev
 npx prisma generate
 ```
 
-## ขั้นตอนที่ 6: ตั้งค่า Seed Data (ถ้าต้องการ)
-หากต้องการข้อมูลตัวอย่าง สามารถรันคำสั่ง:
-```bash
-npx prisma db seed
-```
-
-## ขั้นตอนที่ 7: รันโปรเจคในโหมดพัฒนา
+## ขั้นตอนที่ 6: รันโปรเจคในโหมดพัฒนา
 ใช้คำสั่งต่อไปนี้เพื่อเริ่มรันโปรเจค:
 ```bash
 npm run dev
@@ -79,14 +73,14 @@ npm run dev
 http://localhost:3000
 ```
 
-## ขั้นตอนที่ 8: รันโปรเจคในโหมด Production (ถ้าต้องการ)
+## ขั้นตอนที่ 7: รันโปรเจคในโหมด Production (ถ้าต้องการ)
 สร้าง production build:
 ```bash
 npm run build
 ```
 รันโปรเจค:
 ```bash
-npm start
+npm run dev
 ```
 
 ## ขั้นตอนที่ 9: ตรวจสอบการทำงานของโปรเจค
