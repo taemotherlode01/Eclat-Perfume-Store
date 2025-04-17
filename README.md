@@ -17,7 +17,7 @@ npm -v
 ## ขั้นตอนที่ 2: ดาวน์โหลดโปรเจคจาก GitHub
 คลอนโค้ดโปรเจคโดยใช้คำสั่ง:
 ```bash
-git clone https://github.com/your-repository/eclat.git
+git clone https://github.com/taemotherlode01/Eclat-Perfume-Store.git
 ```
 จากนั้นเข้าไปที่โฟลเดอร์โปรเจค:
 ```bash
